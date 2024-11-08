@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bán Mô Hình</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="Product.html">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img href="home.html" width="100px" height="100px" src="Img/Logo.png" alt="logo">
+            <h1>Shop Figure</h1>
+        </div>
+    <form class="search-bar" action="search.html" method="GET">
+        <input type="text" name="query" placeholder="Tìm kiếm sản phẩm..." required>
+        <button type="submit">Tìm kiếm</button>
+    </form>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Trang Chủ</a></li>
+                <li><a href="Product.html">Sản Phẩm</a></li>
+                <li><a href="About.html">Giới thiệu</a></li>
+                <li><a href="Contact.html">Liên hệ</a></li>
+                <li><a href="cart.html">Giỏ hàng</a></li>
+            </ul>
+            <ul class="login-form">
+                <li><a href="Login.html">Đăng Nhập</a></li>
+                <li><a href="Register.html">Đăng Ký</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hello">
+        <h2>Chào mừng đến Shop bán mô hình ONE PIECE</h2>
+        <p>Ở đây chúng tôi bán mô hình chính hãng 100% <br/>
+            Made in Japanese
+        </p>
+    </section>
+    <section class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="Img/MoHinh10.JPG" alt="Sản Phẩm 1">
+            </div>
+            <div class="slide">
+                <img src="Img/MoHinh12.JPG" alt="Sản Phẩm 2">
+            </div>
+            <div class="slide">
+                <img src="Img/MoHinh15.JPG" alt="Sản Phẩm 3">
+            </div>
+            <div class="slide">
+                <img src="Img/MoHinh13.JPG" alt="Sản Phẩm 4">
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="prev" onclick="changeSlide(-1)"></button>
+            <button class="next" onclick="changeSlide(1)"></button>
+        </div>
+    </section>
+        
+    <h2 class="Ten-Background">Sản phẩm đang bán chạy
+    </h2>
+    <section class="product">
+        <div class="product-list">
+            <div class="product-items">
+                <img width="200px" height="270px" src="Img/Mohinh1.JPG" alt="Sản Phẩm 1">
+                <a href="ProductDetail.html">
+                    <h3>One Piece</h3>
+                    <p>Mô Hình Franky 10CM</p>
+                    <p>Giá: 200.000đ</p>
+                    <button class="add-to-card">Add to cart</button>
+                </a>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="product-items">
+                <img width="200px" height="270px" src="Img/MoHinh13.JPG" alt="Sản Phẩm 1">
+                <h3>One Piece</h3>
+                <p>Mô hình Boa Hancook(Beautiful)</p>
+                <p>Giá: 787.000đ</p>
+                <button class="add-to-card">Add to cart</button>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="product-items">
+                <img width="200px" height="270px" src="Img/MoHinh14.JPG" alt="Sản Phẩm 1">
+                <h3>One Piece</h3>
+                <p>Mô hình Marco</p>
+                <p>Giá: 300.000đ</p>
+                <button class="add-to-card">Add to cart</button>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="product-items">
+                <img width="200px" height="270px" src="Img/MoHinh16.JPG" alt="Sản Phẩm 1">
+                <h3>One Piece</h3>
+                <p>Mô hình Luffy Gear 5</p>
+                <p>Giá: 250.000đ</p>
+                <button class="add-to-card">Add to cart</button>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="product-items">
+                <img width="200px" height="270px" src="Img/MoHinh12.JPG" alt="Sản Phẩm 1">
+                <h3>One Piece</h3>
+                <p>Mô hình Law</p>
+                <p>Giá: 234.000đ</p>
+                <button class="add-to-card">Add to cart</button>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="product-items">
+                <img width="200px" height="270px" src="Img/MoHinh4.JPG" alt="Sản Phẩm 1">
+                <h3>One Piece</h3>
+                <p>Mô hình Luffy Gear 5 & Shank</p>
+                <p>Giá: 400.000đ</p>
+                <button class="add-to-card">Add to cart</button>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="product-items">
+                <img width="200px" height="270px" src="Img/MoHinh11.JPG" alt="Sản Phẩm 1">
+                <h3>One Piece</h3>
+                <p>Mô hình Luffy (Wano)</p>
+                <p>Giá: 348/000đ</p>
+                <button class="add-to-card">Add to cart</button>
+            </div>
+        </div>
+    <footer>
+        Hotline: 19001992 | Facebook: Shop Figure
+    </footer>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập - Website Bán Mô Hình</title>
+    <link rel="stylesheet" href="css/StyleLogin.css">
+</head>
+<body>
+    <div class="back-home">
+        <p><a href="home.html"> ← Trở về trang chủ</a></p>
+    </div>
+    
+    <section class="auth-section">
+        <div class="login-container">
+            <h2>Đăng Nhập</h2>
+            <form action="login.php" method="POST">
+                <div class="input-group">
+                    <label for="username">Tài khoản:</label>
+                    <input type="text" id="username" name="username" placeholder="Nhập tài khoản" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required>
+                </div>
+                <button type="submit" class="login-btn">Đăng Nhập</button>
+                <p class="register-link">Chưa có tài khoản? <a href="Register.html">Đăng ký ngay</a></p>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

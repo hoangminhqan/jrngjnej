@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ</title>
+    <link rel="stylesheet" href="css/Contact.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="home.html"><img width="80px" src="Img/Logo.png" alt="Shop Figure Logo"></a>
+            <h1>Shop Figure</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Trang Chủ</a></li>
+                <li><a href="Product.html">Sản Phẩm</a></li>
+                <li><a href="About.html">Giới Thiệu</a></li>
+                <li><a href="Contact.html">Liên Hệ</a></li>
+                <li><a href="cart.html">Giỏ hàng</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="contact-banner">
+            <h2>Liên Hệ Với Chúng Tôi</h2>
+            <p>Chúng tôi luôn sẵn sàng giải đáp các câu hỏi của bạn!</p>
+        </div>
+        <div class="contact-form">
+            <form action="submit_contact.php" method="post">
+                <label for="name">Tên của bạn</label>
+                <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+
+                <label for="email">Email của bạn</label>
+                <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+
+                <label for="message">Nội dung tin nhắn</label>
+                <textarea id="message" name="message" placeholder="Nhập tin nhắn của bạn" rows="4" required></textarea>
+
+                <button type="submit" class="submit-button">Gửi Tin Nhắn</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hotline: 19001992 | Facebook: <a href="https://www.facebook.com/gia.phat.5688476/">Shop Figure</a></p>
+    </footer>
+</body>
+</html>

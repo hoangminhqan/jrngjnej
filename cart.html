@@ -5,24 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giỏ Hàng</title>
     <link rel="stylesheet" href="css/stylecart.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="home.html">
-                <img width="100px" height="100px" src="Img/Logo.png" alt="logo">
-            </a>
+            <img href="home.html" width="100px" height="100px" src="Img/Logo.png" alt="logo">
             <h1>Shop Figure</h1>
         </div>
+    <form class="search-bar" action="search.html" method="GET">
+        <input type="text" name="query" placeholder="Tìm kiếm sản phẩm..." required>
+        <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
         <nav>
             <ul class="menu">
                 <li><a href="home.html">Trang Chủ</a></li>
                 <li><a href="Product.html">Sản Phẩm</a></li>
-                <li><a href="#">Giới thiệu</a></li>
-                <li><a href="#">Liên hệ</a></li>
-                <li><a href="cart.html">Giỏ hàng</a></li>
+                <li><a href="About.html">Giới thiệu</a></li>
+                <li><a href="Contact.html">Liên hệ</a></li>
+                <li><a href="cart.html">Giỏ hàng <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a></li>
+            </ul>
+            <ul class="login-form">
+                <li><a href="Login.html">Đăng Nhập</a></li>
+                <li><a href="Register.html">Đăng Ký</a></li>
             </ul>
         </nav>
+
     </header>
 
     <section class="cart">
@@ -45,6 +56,10 @@
             <button class="checkout">Thanh Toán</button>
         </div>
     </section>
+
+    <footer>
+        <p>Hoàng Minh Quân và Tăng Gia Phát © Copyright 2024. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>

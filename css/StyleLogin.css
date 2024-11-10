@@ -1,4 +1,3 @@
-/* Đặt nền và chỉnh tổng thể */
 body {
     margin: 0;
     padding: 0;
@@ -30,7 +29,6 @@ body {
     background: rgba(0, 0, 0, 0.3);
 }
 
-/* Chỉnh form đăng nhập */
 .auth-section {
     display: flex;
     justify-content: center;

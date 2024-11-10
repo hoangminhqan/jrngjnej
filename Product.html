@@ -6,247 +6,201 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Bán Mô Hình</title>
     <link rel="stylesheet" href="css/StyleProduct.css">
-    <script src="product.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/price.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <a href="home.html">
-                    <img width="80px" height="80px" src="Img/Logo.png" alt="logo">
-                </a>
-                <h1>Shop Figure</h1>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="home.html">Trang Chủ</a></li>
-                    <li><a href="Product.html">Sản Phẩm</a></li>
-                    <li><a href="About.html">Giới thiệu</a></li>
-                    <li><a href="Contact.html">Liên hệ</a></li>
-                    <li><a href="cart.html">Giỏ hàng</a></li>
-                </ul>
-                <ul class="login-form">
-                    <li><a href="Login.html">Đăng Nhập</a></li>
-                    <li><a href="Register.html">Đăng Ký</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <img href="home.html" width="100px" height="100px" src="Img/Logo.png" alt="logo">
+            <h1>Shop Figure</h1>
         </div>
+        <form class="search-bar" action="search.html" method="GET">
+            <input type="text" name="query" placeholder="Tìm kiếm sản phẩm..." required>
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Trang Chủ</a></li>
+                <li><a href="Product.html">Sản Phẩm</a></li>
+                <li><a href="About.html">Giới thiệu</a></li>
+                <li><a href="Contact.html">Liên hệ</a></li>
+                <li><a href="cart.html">Giỏ hàng</a></li>
+            </ul>
+            <ul class="login-form">
+                <li><a href="Login.html">Đăng Nhập</a></li>
+                <li><a href="Register.html">Đăng Ký</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="Ten-Background">Sản Phẩm</h2></br>
-        <p>ONE PIECE</p>
     </div>
-    <section class="product">
-        <div class="product-list">
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/Mohinh1.JPG" alt="Sản Phẩm 1">
-                    <p>Mô hình Franky 10cm</p>
-                </a>
-                <div id="sp1" class="product-item">
-                    <span id="sp1-sale" class="price-sale"></span>
-                    <span id="sp1-price" class="price">Liên hệ</span>
-                </div>
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <a class="product-name" href="sp1.html">
+                    <img class="product-img" src="Img/Mohinh1/MoHinh1_gallery_1.jpg" alt="Sản Phẩm 1">
+                    <p>Boa Hancock - C2 Studio</p>
+                    <div id="sp1" class="product-price">
+                        <span id="sp1-sale" class="price-sale"></span>
+                        <span id="sp1-price" class="price">Liên hệ</span>
+                    </div>
                 </a>
             </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/Mohinh2.JPG" alt="Sản Phẩm 2">
-                    <p>Mô hình Usopp 10cm</p>
-                </a>
-                <div id="sp2" class="product-item">
-                    <span id="sp2-sale" class="price-sale"></span>
-                    <span id="sp2-price" class="price">Liên hệ</span>
-                </div>
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
+            <div class="col-4">
+                <a class="product-name" href="sp2.html">
+                    <img class="product-img" src="Img/Mohinh2/MoHinh2_gallery_1.jpg" alt="Sản Phẩm 2">
+                    <p>Law - Brain Hole Studio</p>
+                    <div id="sp2" class="product-price">
+                        <span id="sp2-sale" class="price-sale"></span>
+                        <span id="sp2-price" class="price">Liên hệ</span>
+                    </div>
                 </a>
             </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh3.JPG" alt="Sản Phẩm 3">
-                    <p>Mô hình Sanji 10cm</p>
-                </a>
-                <div id="sp3" class="product-item">
-                    <span id="sp3-sale" class="price-sale"></span>
-                    <span id="sp3-price" class="price">Liên hệ</span>
-                </div>             
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh16.JPG" alt="Sản Phẩm 4">
-                    <p>Mô hình Luffy Gear 5</p>
-                </a>
-                <div id="sp4" class="product-item">
-                    <span id="sp4-sale" class="price-sale"></span>
-                    <span id="sp4-price" class="price">Liên hệ</span>
-                </div>
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh4.JPG" alt="Sản Phẩm 5">
-                    <p>Mô hình Luffy Shanks</p>
-                </a>
-                <div id="sp5" class="product-item">
-                    <span id="sp5-sale" class="price-sale"></span>
-                    <span id="sp5-price" class="price">Liên hệ</span>
-                </div>               
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh5.JPG" alt="Sản Phẩm 6">
-                    <p>Mô hình Zoro</p>
-                </a>
-                <div id="sp6" class="product-item">
-                    <span id="sp6-sale" class="price-sale"></span>
-                    <span id="sp6-price" class="price">Liên hệ</span>
-                </div>             
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh6.JPG" alt="Sản Phẩm 7">
-                    <p>Mô hình Ace</p>
-                </a>
-                <div id="sp7" class="product-item">
-                    <span id="sp7-sale" class="price-sale"></span>
-                    <span id="sp7-price" class="price">Liên hệ</span>
-                </div>              
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh7.JPG" alt="Sản Phẩm 8">
-                    <p>Mô hình Boa ngồi ghế</p>
-                </a>
-                <div id="sp8" class="product-item">
-                    <span id="sp8-sale" class="price-sale"></span>
-                    <span id="sp8-price" class="price">Liên hệ</span>
-                </div>              
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
 
-                <img class="product-img" src="Img/MoHinh8.JPG" alt="Sản Phẩm 9">
-                <a class="product-name" href="ProductDetail.html">Mô hình Luffy 5 đứng</a>
-                <div id="sp9" class="product-item">
-                    <span id="sp9-sale" class="price-sale"></span>
-                    <span id="sp9-price" class="price">Liên hệ</span>
-                </div>              
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
+            <div class="col-4">
+                <a class="product-name" href="sp3.html">
+                    <img class="product-img" src="Img/MoHinh3/MoHinh3_gallery_1.jpg" alt="Sản Phẩm 3">
+                    <p>Luffy cưỡi bò - Cai Studio</p>
+                    <div id="sp3" class="product-price">
+                        <span id="sp3-sale" class="price-sale"></span>
+                        <span id="sp3-price" class="price">Liên hệ</span>
+                    </div>
                 </a>
             </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh9.JPG" alt="Sản Phẩm 10">
+
+            <div class="col-4">
+                <a class="product-name" href="sp4.html">
+                    <img class="product-img" src="Img/MoHinh4/MoHinh4_gallery_1.jpg" alt="Sản Phẩm 4">
+                    <p>Akainu - TJ x BW STUDIO</p>
+                    <div id="sp4" class="product-price">
+                        <span id="sp4-sale" class="price-sale"></span>
+                        <span id="sp4-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp5.html">
+                    <img class="product-img" src="Img/MoHinh5/MoHinh5_gallery_1.jpg" alt="Sản Phẩm 5">
+                    <p>Son Gohan - Rising Waves...</p>
+                    <div id="sp5" class="product-price">
+                        <span id="sp5-sale" class="price-sale"></span>
+                        <span id="sp5-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp7.html">
+                    <img class="product-img" src="Img/MoHinh6/MoHinh6_gallery_1.jpg" alt="Sản Phẩm 6">
+                    <p>Young Gohan - LK Studio</p>
+                    <div id="sp6" class="product-price">
+                        <span id="sp6-sale" class="price-sale"></span>
+                        <span id="sp6-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp7.html">
+                    <img class="product-img" src="Img/MoHinh7/MoHinh7_gallery_1.JPG" alt="Sản Phẩm 7">
+                    <p>Naruto Sage Mode - Space...</p>
+                    <div id="sp7" class="product-price">
+                        <span id="sp7-sale" class="price-sale"></span>
+                        <span id="sp7-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp8.html">
+                    <img class="product-img" src="Img//MoHinh8/MoHinh8_gallery_1.jpg" alt="Sản Phẩm 8">
+                    <p>Kizaru - TJ x BW STUDIO</p>
+                    <div id="sp8" class="product-price">
+                        <span id="sp8-sale" class="price-sale"></span>
+                        <span id="sp8-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp9.html">
+                    <img class="product-img" src="Img/MoHinh9/MoHinh9_gallery_1.jpg" alt="Sản Phẩm 9">
+                    <p>Sasuke & Susano - DT Studio</p>
+                    <div id="sp9" class="product-price">
+                        <span id="sp9-sale" class="price-sale"></span>
+                        <span id="sp9-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp10.html">
+                    <img class="product-img" src="Img/MoHinh10/MoHinh10_gallery_1.jpg" alt="Sản Phẩm 10">
+                    <p>Kakashi - Unique Art</p>
+                    <div id="sp10" class="product-price">
+                        <span id="sp10-sale" class="price-sale"></span>
+                        <span id="sp10-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp11.html">
+                    <img class="product-img" src="Img/MoHin11_gallery_1.JPG" alt="Sản Phẩm 11">
+                    <p>Mô hình Luffy 5 đứng</p>
+                    <div id="sp11" class="product-price">
+                        <span id="sp11-sale" class="price-sale"></span>
+                        <span id="sp11-price" class="price">Liên hệ</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a class="product-name" href="sp12.html">
+                    <img class="product-img" src="Img/MoHinh12_gallery_1.JPG" alt="Sản Phẩm 12">
                     <p>Mô hình Luffy 5 đi bộ</p>
-                </a>
-                <div id="sp10" class="product-item">
-                    <span id="sp10-sale" class="price-sale"></span>
-                    <span id="sp10-price" class="price">Liên hệ</span>
-                </div>               
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
+                    <div id="sp12" class="product-price">
+                        <span id="sp12-sale" class="price-sale"></span>
+                        <span id="sp12-price" class="price">Liên hệ</span>
+                    </div>
                 </a>
             </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh10.JPG" alt="Sản Phẩm 11">
+
+            <div class="col-4">
+                <a class="product-name" href="sp13.html">
+                    <img class="product-img" src="Img/MoHinh13_gallery_1.JPG" alt="Sản Phẩm 13">
                     <p>Mô hình Râu Đen</p>
-                </a>
-                <div id="sp11" class="product-item">
-                    <span id="sp11-sale" class="price-sale"></span>
-                    <span id="sp11-price" class="price">Liên hệ</span>
-                </div>               
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
+                    <div id="sp13" class="product-price">
+                        <span id="sp13-sale" class="price-sale"></span>
+                        <span id="sp13-price" class="price">Liên hệ</span>
+                    </div>
                 </a>
             </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh11.JPG" alt="Sản Phẩm 12">
+
+            <div class="col-4">
+                <a class="product-name" href="sp14.html">
+                    <img class="product-img" src="Img/MoHinh14_gallery_1.JPG" alt="Sản Phẩm 14">
                     <p>Mô hình Luffy đại nhân</p>
-                </a>
-                <div id="sp12" class="product-item">
-                    <span id="sp12-sale" class="price-sale"></span>
-                    <span id="sp12-price" class="price">Liên hệ</span>
-                </div>              
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
+                    <div id="sp14" class="product-price">
+                        <span id="sp14-sale" class="price-sale"></span>
+                        <span id="sp14-price" class="price">Liên hệ</span>
+                    </div>
                 </a>
             </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh12.JPG" alt="Sản Phẩm 13">
-                    <p>Mô hình Law</p>
-                </a>
-                <div id="sp13" class="product-item">
-                    <span id="sp13-sale" class="price-sale"></span>
-                    <span id="sp13-price" class="price"></span>
-                </div>               
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
+
+            <div class="col-4">
+                <a class="product-name" href="sp15.html">
+                    <img class="product-img" src="Img/MoHinh15.JPG" alt="Sản Phẩm 15">
+                    <p>Mô hình Luffy đại nhân</p>
+                    <div id="sp15" class="product-price">
+                        <span id="sp15-sale" class="price-sale"></span>
+                        <span id="sp15-price" class="price">Liên hệ</span>
+                    </div>
                 </a>
             </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh13.JPG" alt="Sản Phẩm 14">
-                    <p>Mô hình Boa Hancock</p>
-                </a>
-                <div id="sp14" class="product-item">
-                    <span id="sp14-sale" class="price-sale"></span>
-                    <span id="sp14-price" class="price"></span>
-                </div>              
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh14.JPG" alt="Sản Phẩm 15">
-                    <p>Mô hình Marco</p>
-                </a>
-                <div id="sp15" class="product-item">
-                    <span id="sp15-sale" class="price-sale"></span>
-                    <span id="sp15-price" class="price"></span>
-                </div>               
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-            <div class="product-items">
-                <h3>One Piece</h3>
-                <a class="product-name" href="ProductDetail.html">
-                    <img class="product-img" src="Img/MoHinh15.JPG" alt="Sản Phẩm 16">
-                    <p>Mô hình Luffy</p>
-                </a>
-                <div id="sp16" class="product-item">
-                    <span id="sp16-sale" class="price-sale"></span>
-                    <span id="sp16-price" class="price"></span>
-                </div>              
-                <button class="add-to-card">Thêm vào giỏ hàng</button>
-                </a>
-            </div>
-        </div>
-    </section>
 </body>
 
 </html>
